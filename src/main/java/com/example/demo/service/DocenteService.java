@@ -54,7 +54,7 @@ public class DocenteService {
         docenteRepository.save(docente);  // Salva il docente aggiornato
     }
 
-    // Elimina un docente per ID
+    // Elimina un docente per ID 2
     public void deleteDocente(Long id) {
         docenteRepository.deleteById(id);  // Elimina il docente dal database
     }
